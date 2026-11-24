@@ -1,0 +1,2 @@
+# Copy to .dev.vars for local-only secrets. Never commit real credentials.
+# SESSION_SECRET=replace-with-a-long-random-secret
