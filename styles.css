@@ -4,3 +4,76 @@
 @media(max-width:760px){.sidebar{transform:translateX(-100%);transition:transform .2s ease;width:250px;box-shadow:7px 0 24px #1b355016}.sidebar.sidebar-open{transform:translateX(0)}.admin-main{margin-left:0}.admin-topbar{height:57px;padding:0 15px}.admin-menu{display:block}.crumb{margin-right:auto;margin-left:9px;font-size:10px}.top-actions{gap:12px}.live-dot{display:none}.admin-content{padding:25px 15px 82px}.page-heading{align-items:flex-start;gap:12px}.page-heading h1{font-size:21px}.page-heading>div>p:last-child{font-size:10px}.heading-actions{flex-shrink:0}.heading-actions .button{font-size:9px;padding:9px}.metric-grid{grid-template-columns:repeat(2,1fr)}.metric-card{min-height:105px}.dashboard-grid{grid-template-columns:1fr}.source-card{min-height:auto}.donut-wrap{padding:10px}.source-legend{max-width:360px;margin:auto}.bottom-grid{grid-template-columns:1fr}.demo-switch{max-width:calc(100% - 26px);gap:8px;font-size:8px}.demo-switch button{font-size:8px}.dashboard-grid .chart-card{padding:15px}.chart{height:155px}.toolbar{flex-wrap:wrap;padding:12px}.filter-tabs{width:100%;flex-basis:100%;overflow:auto}.filter-tabs button{white-space:nowrap}.search-box{flex:1}.search-box input{width:100%}.enquiry-row{padding:13px 12px;gap:8px}.enquiry-row time{display:none}.enquiry-row .button{padding:7px 8px}.manage-grid,.areas-layout,.content-layout{grid-template-columns:1fr}.section-toolbar{gap:10px}.section-toolbar p{font-size:9px}.section-toolbar .button{white-space:nowrap}.map-large{height:220px}.admin-footer{font-size:7px}.site-banner{font-size:8px}.site-banner span{display:none}.site-nav{height:65px;padding:0 17px}.site-nav nav,.site-contact{display:none}.site-nav .mobile-menu{display:block}.mobile-nav{position:absolute;top:94px;left:12px;right:12px;z-index:5;background:white;box-shadow:0 10px 25px #1e354225;border-radius:9px;padding:14px;display:grid;gap:12px}.mobile-nav a{font-size:12px;color:#526a6b;padding:5px}.mobile-nav button{border:0;background:#25876c;color:white;border-radius:6px;padding:11px;font-weight:700}.hero-site{min-height:640px;align-items:flex-end}.hero-photo{inset:0 0 46% 0;background:linear-gradient(180deg,#e8f0eb00 48%,#e8f0eb 100%),url('https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=1100&q=80') center 40%/cover no-repeat}.hero-content{padding:210px 21px 30px}.trust-line{margin-bottom:19px}.hero-content h1{font-size:54px;letter-spacing:-2.8px}.hero-copy{font-size:11px;max-width:360px}.hero-proof{flex-wrap:wrap;gap:7px 12px;font-size:7px}.hero-sticker{right:18px;top:18px;bottom:auto;padding:8px 11px}.hero-sticker strong{font-size:21px}.hero-sticker span{font-size:7px}.trust-strip{padding:13px 16px;gap:11px;flex-wrap:wrap;min-height:73px}.trust-strip>span{width:100%;text-align:center}.trust-strip b{font-size:8px}.trust-strip em{display:none}.services-section,.testimonial{padding:46px 18px}.section-heading{display:block}.section-heading h2,.area-strip h2{font-size:25px}.section-heading>p{margin-top:9px}.service-cards{grid-template-columns:repeat(2,1fr);gap:9px}.service-card{padding:14px 12px;min-height:205px}.service-tag{top:16px;right:7px;font-size:6px}.service-card h3{font-size:10px}.service-card p{font-size:8px}.service-card .text-link{font-size:8px}.service-card .service-icon{width:33px;height:33px}.area-strip{grid-template-columns:1fr;gap:12px;padding:35px 18px}.area-strip h2{max-width:310px}.testimonial{display:block}.testimonial h2{font-size:20px}.review-card{margin-top:22px;display:inline-block}.site-footer{padding:16px 18px;gap:10px;flex-wrap:wrap}.site-footer>p{display:none}.quote-modal{padding:24px 20px}.modal-copy{margin-bottom:13px}}
 @media(max-width:420px){.page-heading h1{font-size:18px}.date-label{font-size:7px}.heading-actions .button-quiet{display:none}.metric-card>strong{font-size:22px}.metric-top{font-size:8px}.metric-icon{width:25px;height:25px}.demo-switch{width:calc(100% - 20px);justify-content:space-between}.site-footer>span{font-size:7px}.hero-actions .button{font-size:9px;padding:10px}.hero-content h1{font-size:49px}.service-card{min-height:217px}.enquiry-row p{max-width:190px}}
 
+/* Larger type for comfortable reading at common desktop and laptop zoom levels. */
+:root{font-size:16px}
+.sidebar-label{font-size:11px}
+.side-nav button{font-size:15px}
+.nav-count{font-size:11px}
+.help-card>span{font-size:14px}
+.help-card p{font-size:13px}
+.help-card button,.text-link{font-size:13px}
+.user-menu b{font-size:13px}
+.user-menu small{font-size:12px}
+.avatar{font-size:12px}
+.crumb{font-size:14px}
+.live-dot,.live-dot b{font-size:12px}
+.date-label{font-size:11px}
+.page-heading>div>p:last-child{font-size:14px}
+.button{font-size:13px}
+.metric-top{font-size:12px}
+.metric-foot{font-size:11px}
+.card-heading h2{font-size:15px}
+.card-heading p{font-size:12px}
+.chart-legend,.y-labels,.x-labels{font-size:10px}
+.source-legend{font-size:11px}
+th{font-size:10px}
+td{font-size:12px}
+.customer-cell b{font-size:12px}
+.customer-cell small{font-size:11px}
+.status-pill{font-size:10px}
+.admin-footer{font-size:10px}
+.filter-tabs button{font-size:12px}
+.search-box input{font-size:11px}
+.enquiry-title b{font-size:13px}
+.enquiry-row p{font-size:11px}
+.enquiry-row time{font-size:11px}
+.manage-card .enabled,.area-edit-list .enabled,.coverage-caption .enabled{font-size:10px}
+.manage-card h2{font-size:17px}
+.manage-card>p{font-size:12px}
+.manage-card-footer{font-size:11px}
+.area-edit-list b{font-size:12px}
+.area-edit-list small,.coverage-caption small{font-size:10px}
+.field-label,.quote-modal label{font-size:11px}
+.field-label input,.field-label textarea{font-size:12px}
+.upload-placeholder b{font-size:11px}
+.upload-placeholder small{font-size:10px}
+.upload-placeholder button{font-size:10px}
+.preview-inner p{font-size:10px}
+.site-banner{font-size:11px}
+.site-nav nav{font-size:13px}
+.site-contact>span{font-size:13px}
+.trust-line{font-size:12px}
+.hero-copy{font-size:16px}
+.hero-actions .button{font-size:12px}
+.hero-proof{font-size:11px}
+.hero-sticker span{font-size:10px}
+.trust-strip{font-size:11px}
+.trust-strip>span{font-size:12px}
+.trust-strip b{font-size:12px}
+.section-heading>p{font-size:13px}
+.service-tag{font-size:9px}
+.service-card h3{font-size:15px}
+.service-card p{font-size:12px}
+.service-card .text-link{font-size:11px}
+.area-strip>div>p:last-child{font-size:12px}
+.area-chips>span{font-size:11px}
+.area-chips button{font-size:11px}
+.testimonial>div>p:last-child{font-size:11px}
+.review-card p{font-size:10px}
+.site-footer{font-size:10px}
+.modal-copy{font-size:12px}
+.quote-modal input,.quote-modal select,.quote-modal textarea{font-size:12px}
+.modal-privacy{font-size:10px}
+.demo-switch{font-size:11px}
+.demo-switch button{font-size:11px}
+
